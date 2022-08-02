@@ -16,14 +16,14 @@ Style your Termux without changing your shell. OH-MY-ZSH alternative.
 1. Basic Styling using Termux Style addon:
   - Change Color : Nancy
     **Steps:** 
-    1. Long Press somewhere within Termux
+    1. Long Press anywhere on Termux
     2. Select `more`
     3. Then `style`
     4. Finally `choose color`
    
   - Change Font : VictorMono
     **Steps:** 
-    1. Long Press somewhere within Termux
+    1. Long Press anywhere on Termux
     2. Select `more`
     3. Then `style`
     4. Finally `choose font`

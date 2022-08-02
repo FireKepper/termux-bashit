@@ -36,3 +36,32 @@ git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 ~/.bash_it/install.sh
 ```
 
+3. Change Theme to agnoster as in the image in line 14
+
+```bash
+source ~/.bashrc
+nano -l .bashrc
+```
+
+<image src="images/Imagepipe_50.jpg" alt="termux-bashit">
+
+4. Append LOGNAME variable into theme file.
+  - You can find theme files under `~/.bash_it/themes/` directory
+  - I had used `anything` as my LOGNAME in the sample picture above. 
+  - You can use anything as a logname by replacing `$anything` in below code.
+  ```bash
+  echo LOGNAME=$anything >> ~/.bash_it/themes/agnoster/agnoster.theme.bash
+  ```
+  - If you want to use your real LOGNAME which you can find using command `logname`. Use this following code instead.
+  ```bash
+  echo LOGNAME=$(LOGNAME) >> ~/.bash_it/themes/agnoster/agnoster.theme.bash
+  ```
+ 
+5. Enable the Theme
+
+```bash
+source ~/.bashrc
+exec bash
+```
+
+**That's it you can play with bash-it.**

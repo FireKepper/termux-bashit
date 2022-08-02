@@ -52,7 +52,7 @@ nano -l .bashrc
   ```bash
   echo LOGNAME=$anything >> ~/.bash_it/themes/agnoster/agnoster.theme.bash
   ```
-  - If you want to use your real LOGNAME which you can find using command `logname`. Use this following code instead.
+  - If you want to use your real LOGNAME which you can find using command `logname`. Use the following code instead.
   ```bash
   echo LOGNAME=$(LOGNAME) >> ~/.bash_it/themes/agnoster/agnoster.theme.bash
   ```
